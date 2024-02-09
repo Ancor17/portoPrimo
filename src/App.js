@@ -1,17 +1,14 @@
-import React, {useState} from 'react';
-import Counter from "./components/Counter";
-import ClassCounter from "./components/ClassCounter";
+import React from 'react';
 import './styles/App.css'
-import PostItem from "./components/PostItem";
-import PostList from "./components/PostList";
-import Catalog from "./pages/Catalog";
+import {BrowserRouter} from "react-router-dom";
+import AppRouter from "./components/AppRouter";
 
 function App() {
 
     return (
-        <div className="App">
-            <Catalog/>
-        </div>
+        <BrowserRouter>
+            <AppRouter/>
+        </BrowserRouter>
 
 
     );
