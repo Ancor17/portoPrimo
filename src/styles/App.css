@@ -10,15 +10,14 @@
 }
 
 .App {
-    width: 800px;
+    width: 1440px;
 }
 
-.post {
-    display: flex;
-    padding: 15px;
-    border: 2px solid purple;
-    margin-top: 15px;
-    justify-content: space-between;
-    align-items: center;
+.NavLink {
+    font-family: 'Jost', sans-serif;
+    width: 1201.8px;
+    height: 49px;
+    top: 15px;
+    left: 130px;
 }
 
